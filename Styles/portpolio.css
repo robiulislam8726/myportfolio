@@ -51,12 +51,47 @@ nav a {
 /* header releated style*/
 .header{
     background-color: white;
+    background-image:url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 300px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color:gray;
+    margin-bottom: 0;
+}
+.banner-heading{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.section-tittel{
+    color: gray;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: rebeccapurple;
+    text-align: center;
+    font-size: 18px;
+}
+/*Main section style*/
+
+/*About Section style*/
+.about{
+    padding: 130px;
+    margin: 130px;
 }
