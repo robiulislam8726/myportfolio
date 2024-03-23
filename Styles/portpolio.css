@@ -89,9 +89,19 @@ nav a {
     font-size: 18px;
 }
 /*Main section style*/
-
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 /*About Section style*/
 .about{
     padding: 130px;
     margin: 130px;
+}
+.abuout-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
